@@ -1,0 +1,29 @@
+body{
+    margin-top: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 570px;
+}
+
+.count:hover {
+    background-color: green;
+
+}
+
+.clear:hover {
+    background-color: red;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
