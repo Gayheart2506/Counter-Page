@@ -1,0 +1,52 @@
+Git : this is a version control system , helps us keep track of changes made in our code.
+it helps synchronizes code between different people . 
+
+it allows us to test changes to the code without losing the original changes .
+
+Helps revert back to old versions of code .
+
+
+Github : a website that stores all repositories of your code or files.
+
+git clone : repository we can run in order to clone the git repository we want on our system .
+
+git clone <url>
+
+//to open the file on an editor
+code .
+
+git add < filename >
+
+git commit -m "message"
+
+git status // to check the status of your file if it has been committed or not 
+
+// to commit all files that have changed 
+
+git commit -am "Adding a heading"
+
+git push // to push your local file to github repository
+
+git log //gives you details on which date time and in which a commit was made 
+
+
+git reset --hard <commit>
+git reset --hard origin/master
+
+//checking to see your current branch 
+git branch
+
+//switching to a new branch
+git checkout -b style //where style is a new branch i have created and i want to use for my new work.
+
+// to switch to an existing branch 
+git checkout <branchname>
+
+// to merge two branches 
+git merge < name of branch you want to merge >
+
+// to delete a local branch in git 
+git branch -d <local_branch_name>
+
+
+
